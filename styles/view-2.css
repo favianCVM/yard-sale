@@ -1,0 +1,41 @@
+@import url('./index.css');
+
+.email-confirmation__container{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  place-items: center;
+}
+
+.email-confirmation__title{
+  margin: 0 0 1rem 0;
+  font-size: var(--lg);
+}
+
+.email-confirmation__subtitle{
+  font-size: var(--md);
+  color:  var(--very-light-pink);
+  padding: 0 2rem;
+}
+
+.email-confirmation__email-logo{
+  margin: 1.8rem 0;
+  padding: 2rem;
+  border-radius: 50%;
+  background-color: var(--text-input-field);
+  display: flex;
+  justify-content: center;
+}
+
+.email-confirmation__email-logo img {
+  width: 80px;
+}
+
+.email-confirmation__reesend-email{
+  font-size: var(--md);
+  color: var(--very-light-pink);
+  margin: 1rem 0;
+}
+
+.reesend-message{
+  color: var(--hospital-green);
+}

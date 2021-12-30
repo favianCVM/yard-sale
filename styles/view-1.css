@@ -1,0 +1,57 @@
+@import url('./index.css');
+
+.logo{
+  width: 170px;
+  margin: 0 0 2rem 0;
+  justify-self: center;
+  display: none;
+
+}
+
+.reset-password-container__title{
+  margin: 0 0 1rem 0;
+  font-size: var(--lg);
+}
+
+.reset-password-container__subtitle{
+  color: var(--very-light-pink);
+  font-size: var(--md);
+}
+
+.reset-password-container__form{
+  display: grid;
+  place-items: center;
+  grid-auto-flow: row;
+  grid-template-rows: auto 1fr;
+}
+
+.reset-password-form{
+  padding: 1rem;
+  margin: 1rem 0;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: auto 1fr;
+  row-gap: 1rem;
+}
+
+.reset-password-form__input-container{
+  display: grid;
+  row-gap: .2rem;
+}
+
+.reset-password-form__label{
+  font-weight: 700;
+}
+
+.reset-password-form__input{
+  padding: .6rem;
+  border-radius: .2rem;
+  border: none;
+  background-color: var(--text-input-field);
+}
+
+@media (max-width: 640px) {
+  .logo{
+    display: block;
+  }
+}

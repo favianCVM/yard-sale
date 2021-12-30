@@ -1,0 +1,66 @@
+@import url('./index.css');
+
+.logo{
+  width: 170px;
+  margin: 0 0 2rem 0;
+  justify-self: center;
+  display: none;
+
+}
+
+.login-container__title{
+  margin: 0 0 0rem 0;
+  font-size: var(--lg);
+}
+
+.login-container__subtitle{
+  color: var(--very-light-pink);
+  font-size: var(--md);
+}
+
+.login-container__form{
+  display: grid;
+  place-items: center;
+  grid-auto-flow: row;
+  grid-template-rows: auto 1fr;
+}
+
+.login-form{
+  padding: 1rem;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: auto 1fr;
+  row-gap: 1rem;
+}
+
+.login-form__input-container{
+  display: grid;
+  row-gap: .2rem;
+}
+
+.login-form__label{
+  font-weight: 700;
+}
+
+.login-form__input{
+  padding: .6rem;
+  border-radius: .2rem;
+  border: none;
+  background-color: var(--text-input-field);
+}
+
+.forgot-password{
+  color: var(--very-light-pink);
+}
+
+@media (max-width: 640px) {
+  .logo{
+    display: block;
+  }
+
+  .secondary-button{
+    position: absolute;
+    bottom: 20px;
+    width: inherit;
+  }
+}

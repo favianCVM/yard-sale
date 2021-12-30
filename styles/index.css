@@ -1,0 +1,62 @@
+@import url('./view-1.css');
+@import url('./view-2.css');
+@import url('./view-3.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+:root{
+  --white: #FFFFFF;
+  --black: #000000;
+  --dark: #232830;
+  --very-light-pink: #C7C7C7;
+  --text-input-field: #F7F7F7;
+  --hospital-green: #ACD9B2;
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.primary-button{
+  padding: .5rem 2.5rem;
+  background-color: var(--hospital-green);
+  border: none;
+  font-weight: 700;
+  color: var(--white);
+  border-radius: .4rem;
+  width: fit-content;
+  cursor: pointer;
+  font-size: var(--md);
+  height: 50px;
+  margin: 0 auto;
+}
+
+.secondary-button{
+  font-size: var(--sm);
+  text-align: center;
+  background-color: var(--white);
+  color: var(--hospital-green);
+  cursor: pointer;
+  text-decoration: none;
+  margin: 1rem 0;
+  border: 2px solid var(--hospital-green);
+  padding: .5rem 2.5rem;
+  border-radius: .4rem;
+}
+
+.center-container{
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.half-width{
+  width: 50%;
+}
